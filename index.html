@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<!-- DEMO de venta, no el sitio oficial del local. Lleva nombre, reseñas y
+     horario reales, por eso va con noindex. Se quita si el local contrata. -->
+<meta name="robots" content="noindex, nofollow">
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Donde Seba · Churrascos y sándwiches en Av. Calera de Tango</title>
+<meta name="description" content="Donde Seba — churrascos y sándwiches con mayo casera en Av. Calera de Tango 8, San Bernardo. 5.0★ en Google.">
+
+<!--
+  ============================================================
+  DEMO — DONDE SEBA (Av. Calera de Tango 8, San Bernardo)
+
+  ✅ DATOS REALES VERIFICADOS (10-09-2026)
+  - Google Maps: 5.0★, 7 opiniones, Cafetería.
+  - Dirección: Av. Calera de Tango 8, San Bernardo.
+  - Place ID real: 0x9662df00247e6a4b:0xaec7a5a0dbd668a2
+  - Coordenadas: -33.6309215, -70.7238837
+  - Servicios: consumo en el lugar y para llevar.
+  - Rango informado en Google por 5 personas: $5.000-10.000 por persona.
+  - Palabras más repetidas en sus opiniones: sándwich y sector.
+  - 3 reseñas reales con nombre. Se les corrigió la ortografía para que se lean bien,
+  -   pero no se cambió ni una idea.
+  - Fotos: su ÚNICA foto publicada en Google.
+
+  ⚠️ PENDIENTE / NUNCA INVENTADO:
+  - ESTE ES EL CASO MÁS DIFÍCIL DE CONTACTAR DEL PORTAFOLIO:
+  -   - NO tiene teléfono publicado (Google muestra 'Agregar número de teléfono').
+  -   - NO tiene horarios publicados (Google muestra 'Agregar horarios').
+  -   - NO tiene sitio web (Google muestra 'Agregar sitio web').
+  -   - NO se le encontró Instagram con ninguna variante del nombre.
+  -   - Su ficha de Google NI SIQUIERA ESTÁ RECLAMADA ('Reclamar este negocio').
+  -   => HAY QUE IR AL LOCAL con la demo en el teléfono. No hay otra vía.
+  - SOLO 1 FOTO en todo Google. La página la usa en el hero y en Nosotros, que es
+  -   todo lo que se puede hacer honestamente. Con 4 o 5 fotos más queda muy bien.
+  - CARTA: solo se pudieron verificar dos productos. Hay que armarla con ellos.
+  - PRECIOS: ninguno publicado.
+  - A favor: 5.0 con 7 opiniones y las reseñas son específicas y entusiastas.
+  -   El producto claramente funciona; lo que no existe es la presencia digital.
+  -   Es justo el argumento de venta más fácil de explicar.
+  ============================================================
+-->
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Staatliches&family=Chivo:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div id="loader">
+  <div class="loader-marca" aria-hidden="true">
+    <svg viewBox="0 0 64 64" width="48" height="48"><path d="M10 22h34v18a14 14 0 0 1-14 14h-6a14 14 0 0 1-14-14z" fill="currentColor"/></svg>
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="header-inner">
+    <button class="brand" data-tab="inicio">
+      <span class="brand-ico" aria-hidden="true">
+        <svg viewBox="0 0 64 64" width="22" height="22"><path d="M10 22h34v18a14 14 0 0 1-14 14h-6a14 14 0 0 1-14-14z" fill="currentColor"/></svg>
+      </span>
+      <span class="brand-name">Donde Seba</span>
+    </button>
+
+    <nav class="nav-links" id="navLinks" aria-label="Navegación principal">
+      <button class="nav-link active" data-tab="inicio">Inicio</button>
+      <button class="nav-link" data-tab="nosotros">Nosotros</button>
+      <button class="nav-link" data-tab="carta">Carta</button>
+      <button class="nav-link" data-tab="resenas">Reseñas</button>
+      <button class="nav-link" data-tab="visitanos">Visítanos</button>
+    </nav>
+
+    <div class="header-actions">
+      <button class="btn btn-solid btn-sm" data-tab="visitanos">Cómo llegar</button>
+      <button class="nav-toggle" id="navToggle" aria-label="Abrir menú" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main>
+
+<!-- ================= INICIO ================= -->
+<section class="tab-panel active" data-tab-panel="inicio">
+  <div class="hero">
+    <div class="hero-photo">
+      <img src="fotos/churrasco.jpg" alt="Churrasco de Donde Seba en pan amasado, con tomate, verduras y mayo casera, servido al aire libre">
+    </div>
+    <div class="hero-scrim"></div>
+    <div class="hero-content">
+      <p class="hero-eyebrow reveal">Churrascos y sándwiches · Av. Calera de Tango</p>
+      <h1 class="reveal">Los mejores del sector</h1>
+      <p class="hero-lead reveal">Churrascos y sándwiches en Av. Calera de Tango 8. Pan blandito, carne a punto y mayo casera. Siete opiniones en Google, las siete de cinco estrellas.</p>
+
+      <div class="hero-pills reveal">
+        <span class="pill"><span class="status-dot" id="statusDot"></span><span id="statusText">Consultando horario…</span></span>
+        <span class="pill">★ <strong>5.0</strong> · 7 opiniones en Google</span>
+        
+      </div>
+
+      <div class="hero-ctas reveal">
+        <button class="btn btn-solid" data-tab="carta">Ver la carta</button>
+        <button class="btn btn-ghost" data-tab="visitanos">Cómo llegar</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="wrap">
+      <div class="eyebrow-row reveal">
+        <span class="eyebrow">Lo que hacemos</span>
+        <h2 class="section-title">Sándwiches y nada más</h2>
+        
+      </div>
+      <div class="pilares">
+        <article class="info-card reveal">
+          <div class="pilar-ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3.5 9.5c0-2.4 3.8-4.3 8.5-4.3s8.5 1.9 8.5 4.3z"/><path d="M3.5 9.5h17v1.8H3.5z"/><path d="M4 13.2c1.8 1 3.4.4 4.8-.3 1.4-.7 3-1.2 4.6-.3 1.5.9 3.4 1.4 6.6.6"/><path d="M3.5 15.5h17c0 2-1.5 3.3-3.5 3.3H7c-2 0-3.5-1.3-3.5-3.3z"/></svg></div>
+          <h3>Churrascos</h3>
+          <p>"Los mejores churrascos que he comido del sector. Estaba increíble: el pan blandito, la carne a punto" — cita textual de una reseña real.</p>
+        </article>
+        <article class="info-card reveal">
+          <div class="pilar-ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9 3.5h6v2.8l1.6 2.4a4 4 0 0 1 .7 2.3v7.4a2.1 2.1 0 0 1-2.1 2.1H8.8a2.1 2.1 0 0 1-2.1-2.1V11a4 4 0 0 1 .7-2.3L9 6.3z"/><path d="M7.2 12.5h9.6"/></svg></div>
+          <h3>Mayo casera</h3>
+          <p>Lo que más destaca esa misma reseña: la mayonesa es casera, no de bolsa. "Que es lo mejor", dice.</p>
+        </article>
+        <article class="info-card reveal">
+          <div class="pilar-ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2.6M12 19.4V22M2 12h2.6M19.4 12H22"/><path d="M5 5l1.9 1.9M17.1 17.1 19 19M5 19l1.9-1.9M17.1 6.9 19 5"/></svg></div>
+          <h3>Precios aterrizados</h3>
+          <p>"Muy buenos sándwiches, precios aterrizados y el dueño es bien amable." Otra reseña suma: productos frescos.</p>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= NOSOTROS ================= -->
+<section class="tab-panel" data-tab-panel="nosotros">
+  <div class="section">
+    <div class="wrap">
+      <div class="eyebrow-row reveal">
+        <span class="eyebrow">Quiénes somos</span>
+        <h2 class="section-title">Donde Seba</h2>
+      </div>
+      <div class="nosotros-grid">
+        <div class="nosotros-text reveal">
+          <p class="lead">
+            Donde Seba está en <strong>Av. Calera de Tango 8</strong>, en San Bernardo:
+            churrascos y sándwiches, para comer ahí mismo o para llevar.
+          </p>
+          <p>
+            <strong>Siete opiniones en Google y las siete son de cinco estrellas.</strong>
+            Todas dicen lo mismo desde ángulos distintos: el sándwich, el precio y el trato.
+            <em>"Excelente atención, comida exquisita, precios muy buenos, productos frescos.
+            Todo excelente."</em>
+          </p>
+          <div class="badges reveal">
+            <span class="badge">5.0★ · 7 opiniones</span>
+            <span class="badge">Consumo en el lugar</span>
+            <span class="badge">Para llevar</span>
+            <span class="badge">Mayo casera</span>
+            <span class="badge">Atendido por su dueño</span>
+          </div>
+          <p class="nota-fuente">Lo de «atendido por su dueño» sale de una reseña real: «el dueño es bien amable».</p>
+        </div>
+        <div class="nosotros-fotos reveal">
+          <figure class="foto-grande">
+            <img src="fotos/churrasco.jpg" alt="Churrasco de Donde Seba en pan amasado con tomate, verduras y mayo casera" loading="lazy">
+            <figcaption>Su única foto publicada — y basta para entender el negocio</figcaption>
+          </figure>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= CARTA ================= -->
+<section class="tab-panel" data-tab-panel="carta">
+  <div class="section">
+    <div class="wrap">
+      <div class="eyebrow-row reveal">
+        <span class="eyebrow">La carta</span>
+        <h2 class="section-title">Nuestra carta</h2>
+        <p class="section-sub">Arma tu pedido y consúltanos. Según el dato que Google recoge de 5 clientes, el gasto promedio va entre $5.000 y $10.000 por persona.</p>
+      </div>
+      <div class="menu-tabs" id="menuTabs" role="tablist" aria-label="Categorías de la carta"></div>
+      <div id="menuPanels"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= RESEÑAS ================= -->
+<section class="tab-panel" data-tab-panel="resenas">
+  <div class="section">
+    <div class="wrap">
+      <div class="eyebrow-row reveal">
+        <span class="eyebrow">Lo que dicen</span>
+        <h2 class="section-title">5.0 / 5 · 7 opiniones en Google</h2>
+      </div>
+      <div class="resenas-grid">
+        <article class="review-card reveal">
+          <div class="stars" aria-label="5 de 5 estrellas">★★★★★</div>
+          <p>"Los mejores churrascos que he comido del sector. Estaba increíble: el pan blandito, la carne a punto y la mayo casera, que es lo mejor."</p>
+          <footer><span class="avatar" aria-hidden="true">AP</span>
+            <span class="review-meta"><strong>Alberto Pérez</strong>hace un año</span></footer>
+        </article>
+        <article class="review-card reveal">
+          <div class="stars" aria-label="5 de 5 estrellas">★★★★★</div>
+          <p>"Muy buenos sándwiches, precios aterrizados y el dueño es bien amable."</p>
+          <footer><span class="avatar" aria-hidden="true">FA</span>
+            <span class="review-meta"><strong>Farid Apey</strong>hace un año</span></footer>
+        </article>
+        <article class="review-card reveal">
+          <div class="stars" aria-label="5 de 5 estrellas">★★★★★</div>
+          <p>"Excelente atención, comida exquisita, precios muy buenos, productos frescos. Todo excelente."</p>
+          <footer><span class="avatar" aria-hidden="true">AO</span>
+            <span class="review-meta"><strong>Agustín Olmedo Llambías</strong>hace un año</span></footer>
+        </article>
+      </div>
+      <p class="review-cta-bajo reveal">
+        <a href="https://search.google.com/local/writereview?placeid=0x9662df00247e6a4b:0xaec7a5a0dbd668a2" target="_blank" rel="noopener">
+          ¿Nos visitaste? Déjanos tu reseña en Google
+        </a>
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- ================= VISÍTANOS ================= -->
+<section class="tab-panel" data-tab-panel="visitanos">
+  <div class="section">
+    <div class="wrap">
+      <div class="eyebrow-row reveal">
+        <span class="eyebrow">Visítanos</span>
+        <h2 class="section-title">Estamos en Av. Calera de Tango 8</h2>
+      </div>
+      <div class="visitanos-grid">
+        <div class="visitanos-info reveal">
+          <div class="dato">
+            <span class="dato-ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 21s-7-6-7-11a7 7 0 1 1 14 0c0 5-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg></span>
+            <div><strong>Av. Calera de Tango 8</strong><span>San Bernardo, Región Metropolitana</span></div>
+          </div>
+          <div class="dato">
+            <span class="dato-ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg></span>
+            <div>
+              <strong>Horario</strong>
+              <span>Horario por confirmar</span>
+              <span class="nota-fuente">Google no publica el horario de este local. Conviene preguntarlo directamente.</span>
+            </div>
+          </div>
+          <div class="dato">
+            <span class="dato-ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 7h16v10H4z"/><path d="M4 7l8 6 8-6"/></svg></span>
+            <div>
+              <strong>Contacto</strong>
+              <span class="nota-fuente">El local todavía no tiene teléfono publicado en Google. En cuanto lo tengamos, se agrega acá el botón de WhatsApp.</span>
+            </div>
+          </div>
+          <div class="visitanos-ctas">
+            <a class="btn btn-ghost" href="https://www.google.com/maps/dir/?api=1&destination=Donde+Seba+San+Bernardo&destination_place_id=0x9662df00247e6a4b:0xaec7a5a0dbd668a2" target="_blank" rel="noopener">Cómo llegar</a>
+            <a class="btn btn-ghost" href="https://waze.com/ul?ll=-33.6309215,-70.7238837&navigate=yes" target="_blank" rel="noopener">Abrir en Waze</a>
+          </div>
+        </div>
+        <div class="map-frame reveal">
+          <!-- Embed REAL: place id y coordenadas de su ficha de Google (10-09-2026) -->
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3329.0!2d-70.7238837!3d-33.6309215!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662df00247e6a4b%3A0xaec7a5a0dbd668a2!2sDonde%20Seba!5e0!3m2!1ses-419!2scl!4v1789005600000!5m2!1ses-419!2scl"
+            loading="lazy" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"
+            title="Mapa de Donde Seba en Av. Calera de Tango 8"></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap footer-inner">
+    <div>
+      <span class="brand-name footer-brand">Donde Seba</span>
+      <p>Av. Calera de Tango 8 · San Bernardo, Región Metropolitana</p>
+      <p class="status-line"><span class="status-dot" id="statusDot2"></span> <span id="statusText2">—</span></p>
+    </div>
+    <div class="footer-links">
+      <a href="https://search.google.com/local/writereview?placeid=0x9662df00247e6a4b:0xaec7a5a0dbd668a2" target="_blank" rel="noopener">Dejar una reseña</a>
+    </div>
+  </div>
+</footer>
+
+<script src="vida.js"></script>
+<script src="carta-fotos.js"></script>
+<script src="script.js"></script>
+<script src="carrito.js"></script>
+</body>
+</html>
