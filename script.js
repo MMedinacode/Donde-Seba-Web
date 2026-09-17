@@ -3,7 +3,7 @@
    ============================================================
    ⚠️ CARTA MÍNIMA Y SIN PRECIOS. Este negocio NO tiene teléfono, horarios
    ni sitio publicados, y su ficha de Google ni siquiera está reclamada.
-   Los dos únicos productos de esta carta salen de sus reseñas reales y de
+   Los dos únicos productos de esta carta salen de nuestras reseñas y de
    su única foto. No hay nada más que se pueda verificar, y no se inventa.
    ESTA CARTA HAY QUE ARMARLA CON ELLOS, EN PERSONA.
    ============================================================ */
@@ -19,7 +19,7 @@ const MENU = {
       },
       {
         "n": "Sándwiches",
-        "d": "\"Muy buenos sándwiches, precios aterrizados\" — cita textual de una reseña real"
+        "d": "\"Muy buenos sándwiches, precios aterrizados\" — cita textual de una reseña"
       }
     ]
   }
