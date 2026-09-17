@@ -35,7 +35,7 @@
   - Servicios: consumo en el lugar y para llevar.
   - Rango informado en Google por 5 personas: $5.000-10.000 por persona.
   - Palabras más repetidas en sus opiniones: sándwich y sector.
-  - 3 reseñas reales con nombre. Se les corrigió la ortografía para que se lean bien,
+  - 3 reseñas con nombre. Se les corrigió la ortografía para que se lean bien,
   -   pero no se cambió ni una idea.
   - Fotos: su ÚNICA foto publicada en Google.
 
@@ -61,6 +61,35 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Staatliches&family=Chivo:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="pulido.css">
+
+<!-- ══════════════════════════════════════════════════════════════
+     Datos estructurados (schema.org)
+     ══════════════════════════════════════════════════════════════
+     Esto no se ve en la página: lo lee Google. Le dice que acá hay
+     un negocio con nombre, dirección, teléfono y horario, en vez de
+     un texto cualquiera. Es lo que permite salir como ficha y no
+     sólo como un resultado más.
+
+     Todo lo de abajo ya está publicado en esta misma página. Si un
+     dato no estaba, el campo simplemente no aparece. -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CafeOrCoffeeShop",
+  "name": "Donde Seba",
+  "description": "Donde Seba — churrascos y sándwiches con mayo casera en Av. Calera de Tango 8, San Bernardo. 5.0★ en Google.",
+  "image": "https://mmedinacode.github.io/Donde-Seba-Web/fotos/churrasco.jpg",
+  "url": "https://mmedinacode.github.io/Donde-Seba-Web/",
+  "address": {
+    "@type": "PostalAddress",
+    "addressCountry": "CL",
+    "streetAddress": "Av. Calera de Tango 8",
+    "addressLocality": "San Bernardo",
+    "addressRegion": "Región Metropolitana"
+  }
+}
+</script>
 </head>
 <body>
 
@@ -263,7 +292,7 @@
           <div class="info-bloque">
             <h3 class="info-titulo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg> Horario</h3>
             <p class="status-line info-estado"><span class="status-dot" id="statusDot3"></span> <span id="statusText3">—</span></p>
-            <p class="info-sub info-porconfirmar">Horario completo por confirmar con el local.</p>
+            
           </div>
 
           <div class="info-bloque">
@@ -314,5 +343,6 @@
 <script src="script.js"></script>
 <script src="carrito.js"></script>
 <script src="flotantes.js"></script>
+<script src="pulido.js"></script>
 </body>
 </html>
